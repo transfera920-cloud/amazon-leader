@@ -1,0 +1,6 @@
+{
+  "name": "第八章｜登山隊伍管理與領隊決策｜亞馬遜國家山岳協會",
+  "description": "亞馬遜國家山岳協會登山教育教材第八章，介紹登山隊伍管理、領隊責任、行進控制、時間管理、風險判斷、撤退決策與團隊溝通。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
