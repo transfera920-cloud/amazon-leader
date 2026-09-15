@@ -16,9 +16,12 @@ export default function Footer() {
                 <Mountain className="w-5 h-5" />
               </div>
               <div>
-                <span className="font-bold text-white text-base tracking-wide block">
+                <a
+                  href="https://amazon-hike.com/intro"
+                  className="font-bold text-white hover:text-amber-400 transition-colors text-base tracking-wide block"
+                >
                   亞馬遜國家山岳協會
-                </span>
+                </a>
                 <span className="text-slate-500 font-mono text-[11px] block">
                   Amazon National Mountain Association (AMNA)
                 </span>
