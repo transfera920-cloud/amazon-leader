@@ -56,12 +56,15 @@ export default function Header({ activeSection = "" }: HeaderProps) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Brand & Chapter Tag */}
-        <div className="flex items-center gap-3">
-          <div className="w-9 h-9 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400">
+        <a
+          href="https://amazon-hike.com/"
+          className="flex items-center gap-3 group transition-opacity hover:opacity-90"
+        >
+          <div className="w-9 h-9 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400 group-hover:border-amber-500/50 transition-colors">
             <Compass className="w-5 h-5" aria-hidden="true" />
           </div>
           <div>
-            <div className="text-xs font-semibold tracking-wider text-slate-400 uppercase">
+            <div className="text-xs font-semibold tracking-wider text-slate-400 uppercase group-hover:text-amber-400 transition-colors">
               亞馬遜國家山岳協會 · 登山教育
             </div>
             <div className="text-sm sm:text-base font-bold text-slate-100 flex items-center gap-1.5">
@@ -71,7 +74,7 @@ export default function Header({ activeSection = "" }: HeaderProps) {
               </span>
             </div>
           </div>
-        </div>
+        </a>
 
         {/* Desktop Quick Nav */}
         <nav className="hidden lg:flex items-center gap-1 text-xs" aria-label="章節快速導航">
