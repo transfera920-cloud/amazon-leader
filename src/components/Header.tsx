@@ -55,7 +55,7 @@ export default function Header({ activeSection = "" }: HeaderProps) {
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-        {/* Brand & Chapter Tag */}
+        {/* Brand */}
         <a
           href="https://amazon-hike.com/"
           className="flex items-center gap-3 group transition-opacity hover:opacity-90"
@@ -63,16 +63,8 @@ export default function Header({ activeSection = "" }: HeaderProps) {
           <div className="w-9 h-9 rounded-lg bg-slate-800 border border-slate-700 flex items-center justify-center text-amber-400 group-hover:border-amber-500/50 transition-colors">
             <Compass className="w-5 h-5" aria-hidden="true" />
           </div>
-          <div>
-            <div className="text-xs font-semibold tracking-wider text-slate-400 uppercase group-hover:text-amber-400 transition-colors">
-              亞馬遜國家山岳協會 · 登山教育
-            </div>
-            <div className="text-sm sm:text-base font-bold text-slate-100 flex items-center gap-1.5">
-              <span>第八章 隊伍管理與領隊決策</span>
-              <span className="hidden sm:inline-block px-1.5 py-0.5 text-xs font-medium bg-amber-500/10 text-amber-400 border border-amber-500/30 rounded">
-                高山安全教材
-              </span>
-            </div>
+          <div className="text-sm sm:text-base font-bold text-slate-100 group-hover:text-amber-400 transition-colors">
+            亞馬遜國家山岳協會 · 登山教育
           </div>
         </a>
 

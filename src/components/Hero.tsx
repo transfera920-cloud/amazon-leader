@@ -10,13 +10,6 @@ export default function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Text Content */}
           <div className="lg:col-span-7 space-y-6">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-800/90 border border-slate-700 text-xs text-slate-300">
-              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-              <span>亞馬遜國家山岳協會 · 登山教育教材系列</span>
-              <span className="text-slate-500">|</span>
-              <span className="text-amber-300 font-medium">第八章</span>
-            </div>
-
             {/* Exactly ONE <h1> in the entire page as strictly required */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight">
               登山隊伍管理 <br />
