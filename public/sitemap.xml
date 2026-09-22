@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- 注意：本頁的 sitemap.xml 需要被整合進網域根目錄 https://amazon-hike.com/sitemap.xml（或 sitemap index），並由根目錄的 https://amazon-hike.com/robots.txt 統一宣告，這兩個檔案不會在子目錄層級生效。 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://amazon-hike.com/chapter08/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
